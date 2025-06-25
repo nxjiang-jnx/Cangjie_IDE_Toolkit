@@ -80,10 +80,9 @@ let b = (1 + (2 * 3)) * 2   -->   let b = 14
 
 ```bash
 📁 src/
-├── main.cj               # 主函数，启动 HTTP 服务
-├── CJCodeTool.cj         # 四大核心函数实现
-├── HttpServer.cj         # HTTP 路由与跨域处理封装
-└── util/                 # 工具类与接口封装
+├── main.cj                # 主函数，启动 HTTP 服务
+├── CJCodeTool.cj          # 四大核心函数实现
+└── 📁 frontend/           # 前端及前后端通信
 ```
 
 HTTP 服务端口：127.0.0.1:8080
